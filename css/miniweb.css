@@ -5,17 +5,12 @@
 }
 h1 {
 	color: rgb( 57,57,47);
-	
 	font-size:4em;	
 }
 body {
-	background-color:rgb(149, 143, 127);
-	
-	background-repeat: repeat-x;	
-	
-	
+	background-color:rgb(149, 143, 127);	
 }
-.t {
+p {
 	color: rgb( 57,57,47);
 	font-size: 1.7em;
 	font-family: StRyde-Regular,Helvetica,Arial,sans-serif;
