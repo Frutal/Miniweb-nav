@@ -37,4 +37,9 @@ background: -ms-linear-gradient(90deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 10
 background: linear-gradient(180deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
 
 }
+#noms_participants{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
 /* Final Nav CSS*/
