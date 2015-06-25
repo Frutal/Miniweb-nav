@@ -35,17 +35,16 @@ background: -webkit-linear-gradient(90deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79
 background: -o-linear-gradient(90deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
 background: -ms-linear-gradient(90deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
 background: linear-gradient(180deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
-
 }
-<<<<<<< Updated upstream
+
 #noms_participants{
     list-style-type:none;
     padding:0px;
     margin:0px;
-=======
+    }
+/* Final Nav CSS*/
+
 .container {
 padding-top: 60px;
-background-color:rgb(57,57,47);	
->>>>>>> Stashed changes
+background-color:  rgb(102, 102, 102);
 }
-/* Final Nav CSS*/
