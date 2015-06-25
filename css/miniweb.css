@@ -34,31 +34,14 @@ nav {
     border: solid 3px rgb(166, 168, 178); 
     margin: 10px;
     height: 50px;
-    background-color: grey;
     line-height: 50px;
     text-align: center;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
 background: rgb(102, 102, 102);
 background: -moz-linear-gradient(90deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
 background: linear-gradient(180deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
 }
-.inset-text-effect {
-    height: 50px;
-    line-height: 50px;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  border: none;
-  font: normal 20px/1 "Actor", Helvetica, sans-serif;
-  color: rgba(48,48,48,1);
-  text-align: center;
-  text-transform: normal;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
-  -webkit-transform-origin: 40% 50% 0;
-  transform-origin: 40% 50% 0;
-}
+
 
 #noms_participants{
     list-style-type:none;
