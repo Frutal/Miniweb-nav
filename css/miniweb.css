@@ -25,7 +25,7 @@ p {
 /* Inici Nav CSS*/
 nav {
     height: 100%;
-    width: 15%;
+   
     left: 0px;   
 }
 .noms {
@@ -35,7 +35,6 @@ nav {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    /*text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(140,140,136,0.67) ;*/
     background-image: url(../img/paper_texture.png);
     box-shadow: 2px 1px 5px black;
     font-family: StRyde-Regular;
