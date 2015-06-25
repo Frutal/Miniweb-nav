@@ -69,12 +69,12 @@ nav {
     border-radius: 10px;
     border: solid 3px rgb(140,140,136); 
     height: 90px;
-    line-height: 50px;
-   
+    line-height: 80px;
     background-image: url(../img/paper_texture.png);
     box-shadow: 2px 1px 5px black;
     font-family: StRyde-Regular;
     font-weight: 700;
+    color: rgb(140,140,136);
 }
 
 /* FINAL FOOTER CSS*/
