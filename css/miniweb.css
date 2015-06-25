@@ -31,10 +31,9 @@ nav {
 .noms {
     border-radius: 10px;
     border: solid 3px rgb(140,140,136); 
-    margin: 10px;
-    
+    margin: 10px;   
     height: 50px;
-    line-height: 50px;
+    line-height: 45px;
     text-align: center;
     background-image: url(../img/paper_texture.png);
     box-shadow: 2px 1px 5px black;
@@ -49,11 +48,22 @@ nav {
     margin:0px;
 }
 /* Final Nav CSS*/
+/*INICI MAIN CSS*/
+.puntets {
+    border: dotted 6px rgb(140,140,136);
+    height: 150px;
+    border-radius: 10px;
+    line-height: 130px;
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    color: rgb(140,140,136);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
 
-
-
-
-
+/*FINAL MAIN CSS*/
 /* INICI FOOTER CSS*/
 .peu {
     height: 100%;  
