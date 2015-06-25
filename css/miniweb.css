@@ -37,9 +37,15 @@ background: -ms-linear-gradient(90deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 10
 background: linear-gradient(180deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
 
 }
+<<<<<<< Updated upstream
 #noms_participants{
     list-style-type:none;
     padding:0px;
     margin:0px;
+=======
+.container {
+padding-top: 60px;
+background-color:rgb(57,57,47);	
+>>>>>>> Stashed changes
 }
 /* Final Nav CSS*/
