@@ -52,15 +52,14 @@ nav {
 .puntets {
     border: dotted 6px rgb(140,140,136);
     height: 150px;
-    border-radius: 10px;
+    border-radius: 30px;
     line-height: 130px;
     text-align: center;
     font-size: 18px;
     font-family: monospace;
     color: rgb(140,140,136);
     margin-top: 100px;
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px;   
 }
 
 /*FINAL MAIN CSS*/
