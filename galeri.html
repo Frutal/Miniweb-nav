@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <script type="text/javascript">
+function showPic (whichpic) {
+ if (document.getElementById) {
+  document.getElementById('imgContenedor').src = whichpic.href;
+  if (whichpic.title) {
+   document.getElementById('imgDescripcion').childNodes[0].nodeValue = whichpic.title;
+  } else {
+   document.getElementById('imgDescripcion').childNodes[0].nodeValue = whichpic.childNodes[0].nodeValue;
+  }
+  return false;
+ } else {
+  return true;
+ }
+}
+</script>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="miniweb.css" type="text/css" />
+</head>
+<body>
+<div id="ejemploGaleria">
+<span id="imgDescripcion">estem així</span> 
+<ul id="imgListaEjemplo">
+<li><a onclick="return showPic(this)" href="http://www.schnauzi.com/wp-content/uploads/2012/09/perro-ordenador.jpg" title="picant codi">fase 1</a></li>
+<li><a onclick="return showPic(this)" href="http://bashny.net/uploads/images/00/00/13/2013/05/04/970dab1130.jpg" title="m'ha tocat el footer"> fase 2</a></li>
+<li><a onclick="return showPic(this)" href="http://www.weloveadvertising.es/wp-content/uploads/2014/04/gato-ordenador-apple.jpg" title="ni amb el mac em surto">fase 3</a></li>
+<li><a onclick="return showPic(this)" href="http://stc.obolog.net/photos/51bf/51bf0566b4421s32429_p.jpg" title="odio el wordpress">fase 4</a></li>
+</ul>
+<img id="imgContenedor" src="https://s-media-cache-ak0.pinimg.com/736x/be/2c/f4/be2cf409552408f48183a0cdd1c78bfe.jpg" /></div>
+</body>
+</html>
+
+<style>
+div#ejemploGaleria {
+  background-color: #123;
+  border: 3px solid #234;
+  margin: 0 auto;
+  padding: 10px;
+  width: 680px;
+}
+span#imgDescripcion {
+  color: #ABC;
+  float: left;
+  font-size: 28px;
+  width: 350px;
+}
+ul#imgListaEjemplo{
+  float: right;
+  margin: 0;
+}
+ul#imgListaEjemplo li {
+  display: inline;
+  padding: 0 5px;
+}
+ul#imgListaEjemplo li a {
+  font-size: 26px;
+}
+img#imgContenedor{
+  margin-top: 10px;
+}
+</style>
