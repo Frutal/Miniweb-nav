@@ -56,25 +56,23 @@ nav {
 
 /* INICI FOOTER CSS*/
 .peu {
-padding-top: 10px;
-background-color: background: #d0e4f7; /* Old browsers */
-background: -moz-linear-gradient(top, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0e4f7), color-stop(24%,#73b1e7), color-stop(50%,#0a77d5), color-stop(79%,#539fe1), color-stop(100%,#87bcea)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* IE10+ */
-background: linear-gradient(to bottom, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=0 ); /* IE6-9 */
-copy ;
+    height: 100%;  
+    border-radius: 10px;
+    border: solid 3px rgb(140,140,136); 
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    /*text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(140,140,136,0.67) ;*/
+    background-image: url(../img/paper_texture.png);
+    box-shadow: 2px 1px 5px black;
+    font-family: StRyde-Regular;
+    font-weight: 700;
 }
 
-td p{
-    font-family:'Indie Flower', cursive;;
-    font-size:70px;
-    color:#F0FFFF ;
+.peu img{
+    image-align:top;
     
-    
-    
+ 
 }
 
 
