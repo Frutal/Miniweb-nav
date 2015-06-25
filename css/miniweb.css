@@ -25,13 +25,14 @@ p {
 /* Inici Nav CSS*/
 nav {
     height: 100%;
-   
-    left: 0px;   
+    
+    left: 7px;   
 }
 .noms {
     border-radius: 10px;
     border: solid 3px rgb(140,140,136); 
     margin: 10px;
+    
     height: 50px;
     line-height: 50px;
     text-align: center;
