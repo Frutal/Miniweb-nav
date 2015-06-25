@@ -38,8 +38,7 @@ nav {
     text-align: center;
     text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
 background: rgb(102, 102, 102);
-background: -moz-linear-gradient(90deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
-background: linear-gradient(180deg, rgb(102, 102, 102) 0%, rgb(79, 79, 79) 100%);
+
 }
 
 
