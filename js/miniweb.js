@@ -19,6 +19,8 @@ $(document).ready(
 				{
 					$(this).removeClass("noesveu");
 					$(this).addClass("esveu");
+					$('#cart').removeClass("esveu");
+					$('#cart').addClass("noesveu");
 				}
 				else
 				{
