@@ -40,10 +40,14 @@ nav {
     box-shadow: 2px 1px 5px black;
     font-family: StRyde-Regular;
     font-weight: 700;
-    color: #dbd9c7;
-    
+    color: #dbd9c7;  
 }
-
+.esveu {
+    display: block;
+}
+.noesveu {
+    display: none;
+}
 
 #noms_participants{
     list-style-type:none;

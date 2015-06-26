@@ -17,13 +17,13 @@ $(document).ready(
 			{
 				if($(this).attr("name")===nom)
 				{
-					$(this).removeClass("invisible");
-					$(this).addClass("visible");
+					$(this).removeClass("noesveu");
+					$(this).addClass("esveu");
 				}
 				else
 				{
-					$(this).addClass("invisible");
-					$(this).removeClass("visible");	
+					$(this).addClass("noesveu");
+					$(this).removeClass("esveu");	
 				}	
 			}
 		);
