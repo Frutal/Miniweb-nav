@@ -34,18 +34,32 @@ function showPic (whichpic) {
 </html>
 
 <style>
+  
+body {
+	background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;	
+}
+
 div#ejemploGaleria {
-  background-color: #123;
+  background-color: rgb(140,140,136);;
   border: 3px solid #234;
   margin: 0 auto;
   padding: 10px;
-  width: 680px;
+  width: 720px;
+  height: 640px;
+  border-radius: 8px;
 }
 span#imgDescripcion {
-  color: #ABC;
+  color: rgb( 57,57,47);
   float: left;
   font-size: 28px;
   width: 350px;
+  
 }
 ul#imgListaEjemplo{
   float: right;
@@ -56,6 +70,7 @@ ul#imgListaEjemplo li {
   padding: 0 5px;
 }
 ul#imgListaEjemplo li a {
+  color: rgb( 57,57,47);
   font-size: 26px;
 }
 img#imgContenedor{
