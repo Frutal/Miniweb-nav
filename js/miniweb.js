@@ -38,5 +38,17 @@ $(document).ready(
 	$( this ).removeClass( "ui-state-default" );
 	}
 	});
+	$('button[name="boto"]').click(
+		function()
+		{
+			var $fitxa=$(this).parents('div.fixa');
+			$fitxa.removeClass('esveu');
+			$fitxa.addClass('noesveu');
+			$('div#inicial').removeClass('noesveu');
+			$('div#inicial').addClass('esveu');
+			$('div#cart').removeClass('noesveu');
+			$('div#cart').addClass('esveu');
+		}
+	);
 }
 );
