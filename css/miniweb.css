@@ -29,16 +29,19 @@ nav {
     left: 7px;   
 }
 .noms {
-    border-radius: 10px;
-    border: solid 3px rgb(140,140,136); 
+    border-radius: 4px;
+    border: solid 1px rgb(140,140,136); 
     margin: 10px;   
     height: 50px;
     line-height: 45px;
     text-align: center;
-    background-image: url(../img/paper_texture.png);
+    background-color: #474541;
+    background-image: url(../img/fabric-1-dark.png);
     box-shadow: 2px 1px 5px black;
     font-family: StRyde-Regular;
     font-weight: 700;
+    color: #dbd9c7;
+    
 }
 
 
@@ -66,15 +69,16 @@ nav {
 /* INICI FOOTER CSS*/
 .peu {
     height: 100%;  
-    border-radius: 10px;
-    border: solid 3px rgb(140,140,136); 
+    border-radius: 4px;
+    border: solid 1px rgb(140,140,136); 
     height: 90px;
     line-height: 80px;
-    background-image: url(../img/paper_texture.png);
+    background-color: #474541;
+    background-image: url(../img/fabric-1-dark.png);
     box-shadow: 2px 1px 5px black;
     font-family: StRyde-Regular;
     font-weight: 700;
-    color: rgb(140,140,136);
+    color: #dbd9c7;
 }
 
 /* FINAL FOOTER CSS*/
