@@ -20,6 +20,7 @@
 		<![endif]-->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery-2.1.3.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/miniweb.js"></script>
@@ -27,18 +28,208 @@
 		<!--<style> [data-sr] { visibility: hidden; } </style>-->
     </head>
 <body>
+<div class="container">
     <header>
-		Elena
+	
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/candau.jpg" alt="Security">
+	  <div class="carousel-caption">
+        <h3>Seguretat</h3>
+        <p>El A-Team proporciona seguretat contra malotes.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/computer.jpg" alt="Computer">
+	  <div class="carousel-caption">
+        <h3>Computació</h3>
+        <p>una paraula que inclou Com i acaba en ció.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/http.jpg" alt="http">
+	  <div class="carousel-caption">
+        <h3>Web</h3>
+        <p>Desenvolupament web.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     </header>
-	<nav>
-		Frutal
+	<div class="row">
+	<nav class="nav col-md-2">
+
+		<h1 class="ui-widget-header"></h1>
+		<div id="catalog">
+			<h2><a href="#"></a></h2>
+			<ol id="noms_participants">
+				<li name="antoni">	
+					<div class="noms">Antoni1409</div>
+				</li>
+				<li name="elena">
+					<div class="noms">ElenaSinHache</div>
+				</li>
+				<li name="frutal">	
+					<div class="noms">Frutal</div>
+				</li>
+				<li name="merigil">	
+					<div class="noms"><a href="http://www.comocrearunsitioweb.com">MeriGil</a></div>
+				</li>
+				<li name="nekane16">	
+					<div class="noms">Nekane16</div>
+				</li>
+				<li name="yicmailyic">	
+					<div class="noms">YicMailYic</div>
+
+				</li>	
+			</ol>
+		</div>	
+
 	</nav>
-	<main>
-		aqui les diferents fitxes de l'equip, separades per poderles mostrar una per una.
+	<main>	
+	<div id="inicial" class="col-md-10">
+		  <div id="cart">
+				<div class="col-md-3 col-sm-3"></div>
+				<h1 class="ui-widget-header"></h1>
+				<div class="col-md-6 col-sm-6 puntets ui-widget-content">
+					<ol>
+						<li class="placeholder">
+						Arrosega un nom aquí.
+						</li>
+					</ol>
+				</div>
+				<div class="col-md-3 col-sm-3"></div>
+		  </div>
+		</div>		
+	<div id="fitxes_personal">
+			<div name="antoni" class="fixa col-md-10 noesveu">
+				  
+					<div class="thumbnail">
+					  <img src="img/300px-Arale_1.jpg" alt="" class="pull-left" style="padding-right:20px;">
+					  <div class="caption">
+						<button name="boto" type="button" class="close" aria-hidden="true">&times;</button>
+						<h3>Antoni</h3>
+						<p>Cupcake ipsum dolor sit amet fruitcake cake liquorice. 
+						Chupa chups candy candy lemon drops. Muffin tiramisu cupcake cotton candy sweet roll.
+						Cake biscuit sesame snaps topping cotton candy jujubes pastry gummies.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					  </div>
+					</div>
+			</div>
+			<div name="elena" class="fixa col-md-10 noesveu">
+	<!--Fitxa 2 Meri-->			  
+					<div class="thumbnail">
+					  <img src="img/300px-Arale_1.jpg" alt="" class="pull-left" style="padding-right:20px;">
+					  <div class="caption">
+						<button name="boto" type="button" class="close" aria-hidden="true">&times;</button>
+						<h3>Elena</h3>
+						<p>Cupcake ipsum dolor sit amet fruitcake cake liquorice. 
+						Chupa chups candy candy lemon drops. Muffin tiramisu cupcake cotton candy sweet roll.
+						Cake biscuit sesame snaps topping cotton candy jujubes pastry gummies.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					  </div>
+					</div>
+			</div>
+
+			<div name="frutal" class="fixa col-md-10 noesveu">	  
+					<div class="thumbnail">
+					  <img src="img/tomato.png" alt="" class="pull-left" style="padding-right:20px;">
+					  <div class="caption">
+							<button name="boto" type="button" class="close" aria-hidden="true">&times;</button>
+						<h3>Frutal</h3>
+						<p>Coronel Frutal “Hannibal” Smith: el jefe de la banda, su principal habilidad es planear todo y, por supuesto,
+					sus disfraces, que pueden ir desde un pollo hasta un cocodrilo.
+					Su frase característica es: “Me encanta que los planes salgan bien”</p>
+						<p><a href="#" class="btn btn-primary" role="button">Contratar</a> <a href="#" class="btn btn-default" role="button">Denunciar</a></p>
+					  </div>
+					</div>
+			</div>
+			<div name="merigil" class="fixa col-md-10 noesveu">		  
+					<div class="thumbnail">
+					  <img src="img/300px-Arale_1.jpg" alt="" class="pull-left" style="padding-right:20px;">
+					  <div class="caption">
+						<button name="boto" type="button" class="close" aria-hidden="true">&times;</button>
+						<h3>Merigil</h3>
+						<p>Cupcake ipsum dolor sit amet fruitcake cake liquorice. 
+						Chupa chups candy candy lemon drops. Muffin tiramisu cupcake cotton candy sweet roll.
+						Cake biscuit sesame snaps topping cotton candy jujubes pastry gummies.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					  </div>
+					</div>
+			</div>
+			<div name="nekane16" class="fixa col-md-10 noesveu">
+					<div class="thumbnail">
+					  <img src="http://www.servidor-alicante.com/fotos-divertidas/Animales/Cabra.jpg" alt="" class="pull-left"   style="padding-right:20px">
+					  <div class="caption">
+						<button name="boto" type="button" class="close" aria-hidden="true">&times;</button>
+						<h3>Nekane16</h3>
+						<p>Si no vols haver d'emplenar les teves pagines web amb *lorem ipsum dolor sit* crida'm i et faré una web que el gegant de google la posarà en les primeres posicions.
+						   El del *caloret de la Rita* va ser una ocurrència que vaig tenir i ja veus...l'he embolicat marró</p>
+						<p><a href="#" class="btn btn-primary" role="button">Hola</a> <a href="#" class="btn btn-default" role="button">Adeu</a></p>
+					  </div>
+					</div>
+			</div>
+			<div name="yicmailyic" class="fixa col-md-10 noesveu">
+					<div class="thumbnail">
+					  <img src="img/300px-Arale_1.jpg" alt="" class="pull-left" style="padding-right:20px;">
+					  <div class="caption">
+						<button name="boto" type="button" class="close" aria-hidden="true">&times;</button>
+						<h3>YicMailYic</h3>
+						<p>Cupcake ipsum dolor sit amet fruitcake cake liquorice. 
+						Chupa chups candy candy lemon drops. Muffin tiramisu cupcake cotton candy sweet roll.
+						Cake biscuit sesame snaps topping cotton candy jujubes pastry gummies.</p>
+						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+					  </div>
+					</div>
+			</div>
+
+
+	</div>
 	</main>
+	</div>
+	<!--loles treballa sobre el footer desde aqui-->
 	<footer>
-		Loles
-	</footer>
+        <div class="peu">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="http://www.imageneseducativas.com/wp-content/uploads/2014/12/Cartas-Reyes-Magos-6.jpg">
+						<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQXeu5F6oYYE394uscR-kTBrCuAdGCbTH0Lo1aR8BK18tAzYUOe" class="pull-left" height=80px >
+					</a>
+				</div>
+				<div class="col-md-4"><h2>A - Team the programers</h2></div>
+				<div class="col-md-4" style="padding-left:180px;">
+					<p>
+						<a href="galeri.html"<strong>estem així </strong></a>
+					</p>
+				</div>	
+			</div>	
+        </div>
+    </footer>
+	<!--loles treballa sobre fins aqui-->
+
+
 	<!--<script src="js/scrollReveal.min.js"></script>
 	<script type="text/javascript">
 		 (function($) {

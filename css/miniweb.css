@@ -8,11 +8,86 @@ h1 {
 	font-size:4em;	
 }
 body {
-	background-color:rgb(149, 143, 127);	
+	background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;	
 }
 p {
 	color: rgb( 57,57,47);
 	font-size: 1.7em;
 	font-family: StRyde-Regular,Helvetica,Arial,sans-serif;
 	font-weight:lighter;
-}                   
+}
+/* Inici Nav CSS*/
+nav {
+    height: 100%;
+    
+    left: 7px;   
+}
+.noms {
+    border-radius: 4px;
+    border: solid 1px rgb(140,140,136); 
+    margin: 10px;   
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #474541;
+    background-image: url(../img/fabric-1-dark.png);
+    box-shadow: 2px 1px 5px black;
+    font-family: StRyde-Regular;
+    font-weight: 700;
+    color: #dbd9c7;  
+}
+.esveu {
+    display: block;
+}
+.noesveu {
+    display: none;
+}
+
+#noms_participants{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+/* Final Nav CSS*/
+/*INICI MAIN CSS*/
+.puntets {
+    list-style-type:none;
+    border: dotted 6px rgb(140,140,136);
+    height: 150px;
+    border-radius: 30px;
+    line-height: 130px;
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    color: rgb(140,140,136);
+    margin-top: 100px;
+    margin-bottom: 100px;   
+}
+.fixa {
+    margin-top: 20px;
+}
+/*FINAL MAIN CSS*/
+/* INICI FOOTER CSS*/
+.peu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: solid 1px rgb(140,140,136); 
+    height: 90px;
+    line-height: 80px;
+    background-color: #474541;
+    background-image: url(../img/fabric-1-dark.png);
+    box-shadow: 2px 1px 5px black;
+    font-family: StRyde-Regular;
+    font-weight: 700;
+    color: #dbd9c7;
+}
+
+/* FINAL FOOTER CSS*/
+
