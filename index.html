@@ -20,7 +20,7 @@
 		<![endif]-->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery-2.1.3.min.js"></script>
-		<script src="https://ajax.googleapis.πcom/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/miniweb.js"></script>
@@ -81,50 +81,29 @@
 	<div class="row">
 	<nav class="nav col-md-2">
 
-		<h1 class="ui-widget-header"></h1>
-		<div id="catalog">
-			<h2><a href="#"></a></h2>
-			<ol id="noms_participants">
-				<li name="antoni">
-					<div class="noms">Antoni1409</div>
-				</li>
-				<li name="elena">
-					<div class="noms">ElenaSinHache</div>
-				</li>
-				<li name="frutal">
-					<div class="noms">Frutal</div>
-				</li>
-				<li name="merigil">
-					<div class="noms"><a href="http://www.comocrearunsitioweb.com">MeriGil</a></div>
-				</li>
-				<li name="nekane16">
-					<div class="noms">Nekane16</div>
-				</li>
-				<li name="yicmailyic">
-					<div class="noms">YicMailYic</div>
+					<div id="antoni" class="draggable ui-widget-content noms">Antoni1409</div>
 
-				</li>
-			</ol>
-		</div>
+					<div id="elena" class="draggable ui-widget-content noms">ElenaSinHache</div>
+
+					<div id="frutal" class="draggable ui-widget-content noms">Frutal</div>
+
+					<div id="meri" class="draggable ui-widget-content noms"><a href="http://www.comocrearunsitioweb.com">MeriGil</a></div>
+
+					<div id="nekane" class="draggable ui-widget-content noms">Nekane16</div>
+
+					<div id="yic" class="draggable ui-widget-content noms">YicMailYic</div>
 
 	</nav>
 	<main>
 	<div id="inicial" class="col-md-10">
-		  <div id="cart">
-				<div class="col-md-3 col-sm-3"></div>
-				<h1 class="ui-widget-header"></h1>
-				<div class="col-md-6 col-sm-6 puntets ui-widget-content">
-					<ol>
-						<li class="placeholder">
+				<div class="droppable ui-widget-header col-md-6 col-sm-6 puntets">
 						Arrosega un nom aquí.
-						</li>
-					</ol>
 				</div>
 				<div class="col-md-3 col-sm-3"></div>
 		  </div>
 		</div>
 	<div id="fitxes_personal">
-			<div name="antoni" class="fixa col-md-10 noesveu">
+			<div id="ant" name="antoni" class="fixa col-md-10 noesveu">
 
 					<div class="thumbnail">
 					  <img src="img/300px-Arale_1.jpg" alt="" class="pull-left" style="padding-right:20px;">
