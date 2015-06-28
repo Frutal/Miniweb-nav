@@ -49,15 +49,10 @@ nav {
     display: none;
 }
 
-#noms_participants{
-    list-style-type:none;
-    padding:0px;
-    margin:0px;
-}
 /* Final Nav CSS*/
 /*INICI MAIN CSS*/
 .puntets {
-    list-style-type:none;
+    
     border: dotted 6px rgb(140,140,136);
     height: 150px;
     border-radius: 30px;
