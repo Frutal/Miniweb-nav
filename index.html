@@ -27,11 +27,11 @@
 		<link rel="stylesheet" href="css/miniweb.css" type="text/css">
 		<style> [data-sr] { visibility: hidden; } </style>
     </head>
-<body data-sr="wait 0.1s no reset">
+<body>
 <div class="container">
     <header>
 
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div data-sr="wait 0.2s no reset" id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -78,24 +78,24 @@
   </a>
 </div>
     </header>
-	<div class="row">
+	<div data-sr="wait 0.5s enter left no reset" class="row">
 	<nav class="nav col-md-2">
 
-					<div id="antoni" name="antoni"class="draggable noms">Antoni1409</div>
+					<div id="antoni" name="antoni"class="draggable ui-widget-content noms"><a href="#">Antoni1409</a></div>
 
-					<div id="elena" name="elena" class="draggable ui-widget-content noms">ElenaSinHache</div>
+					<div id="elena" name="elena" class="draggable ui-widget-content noms"><a href="#">ElenaSinHache</a></div>
 
-					<div id="frutal" name="frutal" class="draggable ui-widget-content noms">Frutal</div>
+					<div id="frutal" name="frutal" class="draggable ui-widget-content noms"><a href="#">Frutal</a></div>
 
 					<div id="meri" name="meri" class="draggable ui-widget-content noms"><a href="http://www.comocrearunsitioweb.com">MeriGil</a></div>
 
-					<div id="nekane" name="nekane" class="draggable ui-widget-content noms">Nekane16</div>
+					<div id="nekane" name="nekane" class="draggable ui-widget-content noms"><a href="#">Nekane16</a></div>
 
-					<div id="yic" name="yic" class="draggable droppable ui-widget-content noms">YicMailYic</div>
+					<div id="yic" name="yic" class="draggable ui-widget-content noms"><a href="#">YicMailYic</a></div>
 
 	</nav>
 	<main>
-	<div id="inicial" class="col-md-10">
+	<div data-sr="wait 1s no reset" id="inicial" class="col-md-10">
         <div class="col-md-3 col-sm-3"></div>
   				<div id="puntets" class="droppable ui-widget-header col-md-6 col-sm-6 puntets">
   						Arrosega un nom aquí.
@@ -104,7 +104,7 @@
 		  </div>
 
 	<div id="fitxes_personal">
-			<div id="fantoni" name="antoni" class="fixa col-md-10 noesveu">
+			<div name="antoni" class="fixa col-md-10 noesveu">
 
 					<div class="thumbnail">
 					  <img src="img/300px-Arale_1.jpg" alt="" class="pull-left" style="padding-right:20px;">
@@ -118,7 +118,7 @@
 					  </div>
 					</div>
 			</div>
-			<div id="felena" name="elena" class="fixa col-md-10 noesveu">
+			<div name="elena" class="fixa col-md-10 noesveu">
 	<!--Fitxa 2 Meri-->
 					<div class="thumbnail">
 					  <img src="img/300px-Arale_1.jpg" alt="" class="pull-left" style="padding-right:20px;">
@@ -133,7 +133,7 @@
 					</div>
 			</div>
 
-			<div id="ffrutal" name="frutal" class="fixa col-md-10 noesveu">
+			<div name="frutal" class="fixa col-md-10 noesveu">
 					<div class="thumbnail">
 					  <img src="img/tomato.png" alt="" class="pull-left" style="padding-right:20px;">
 					  <div class="caption">
@@ -146,7 +146,7 @@
 					  </div>
 					</div>
 			</div>
-			<div id="fmeri" name="meri" class="fixa col-md-10 noesveu">
+			<div name="meri" class="fixa col-md-10 noesveu">
 					<div class="thumbnail">
 					  <img src="img/300px-Arale_1.jpg" alt="" class="pull-left" style="padding-right:20px;">
 					  <div class="caption">
@@ -190,22 +190,22 @@
 	</main>
 	</div>
 	<!--loles treballa sobre el footer desde aqui-->
-	<footer>
-        <div class="peu">
+	<footer data-sr="wait 1.2s no reset">
+    <div class="peu container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="fotleft col-md-4">
 					<a href="http://www.imageneseducativas.com/wp-content/uploads/2014/12/Cartas-Reyes-Magos-6.jpg">
-						<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQXeu5F6oYYE394uscR-kTBrCuAdGCbTH0Lo1aR8BK18tAzYUOe" class="pull-left" height=80px >
+						<div class="carta"></div>
 					</a>
 				</div>
-				<div class="col-md-4"><h2>A - Team the programers</h2></div>
-				<div class="col-md-4" style="padding-left:180px;">
+				<div class="fotcenter col-md-4"><h2>A - Team the programers</h2></div>
+				<div class="fotright col-md-4">
 					<p>
-						<a href="galeri.html"<strong>estem així </strong></a>
+						<a href="galeri.html"><strong>estem així</strong></a>
 					</p>
 				</div>
 			</div>
-        </div>
+    </div>
     </footer>
 	<!--loles treballa sobre fins aqui-->
 
